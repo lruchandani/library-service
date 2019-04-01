@@ -4,6 +4,8 @@ import com.lalit.library.command.AuthorCommand;
 import com.lalit.library.entity.Author;
 import com.lalit.library.repository.AuthorRepository;
 import com.lalit.library.response.AuthorResponse;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +16,7 @@ import java.util.UUID;
 
 @RestController
 public class AuthorController {
+    private static Logger log = LoggerFactory.getLogger(AuthorController.class);
 
     @Autowired
     AuthorRepository authorRepository;
