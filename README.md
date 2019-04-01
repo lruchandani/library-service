@@ -1,0 +1,2 @@
+[![Build status](https://travis-ci.org/lruchandani/library-service.svg?branch=master)](https://travis-ci.org/lruchandani/library-service)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.lalit.library%3Alibrary-service&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.lalit.library%3Alibrary-service)
